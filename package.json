@@ -1,0 +1,32 @@
+{
+  "name": "todos",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "@testing-library/react": "^9.5.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.5",
+    "jsdom": "^16.4.0",
+    "jsdom-global": "3.0.2",
+    "react-scripts": "^4.0.1"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-redux": "^7.2.2",
+    "redux": "^4.0.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "test": "react-scripts test --env=node"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
