@@ -15,4 +15,12 @@ describe("Test Suite for Actions", () => {
     const filter = "SHOW_ALL";
     expect(actions.setVisibilityFilter(filter).filter).toEqual("SHOW_ALL");
   });
+
+  it("toggle todo", () => {
+    const expectAction = {
+      type: "TOGGLE_TODO",
+      id: 0,
+    };
+    expect(actions.toggleTodo(0)).toEqual(expectAction);
+  });
 });
